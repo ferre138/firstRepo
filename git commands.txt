@@ -1,0 +1,24 @@
+Git Commands file
+
+// Initialize
+git init
+// Add file
+git add "filename"
+// Commit - use single quotes
+git commit -m 'change description'
+//Check status
+git status
+// Create file - Touch "filename"
+touch .gitignore
+// Add Repository
+git clone "URL of repository"
+// View current branch
+git remote
+// View all repos
+git remote -v
+// Fetch the changes to your local repository
+git fetch origin
+// Merge files to your local branch 
+git pull origin
+// Push to repo and commit to branch
+git push origin master
