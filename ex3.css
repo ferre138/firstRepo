@@ -1,0 +1,9 @@
+.animal_img {
+	max-width: 400px;
+	max-height: 200px;
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
