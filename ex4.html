@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+
+<h1>Register for our classes!</h1>
+<form>
+	<label for="firstName">First Name: </label>
+	<input id="firstName" type="text" name="firstName" placeholder="John" required>
+	<label for="lastName">Last Name: </label>
+	<input id="lastName" type="text" name="lastName" placeholder="Smith" required>
+	
+	<br/>
+	
+	<label for="gender">Male</label>
+	<input id="gender" type="radio" name="gender" value="male">
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="gender" value="female">
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="gender" value="other">
+
+	<br/>
+
+	<label for="email">Email: </label>
+	<input id="email" type="email" name="email" placeholder="your name" required>
+	<label for="password">Password: </label>
+	<input id="password" type="password" name="password" placeholder="your password" required pattern=".{5,10}" title="5 to 10 characters">
+
+	<br/>
+
+	<label for="birthday">Birthday: </label>
+	<input type="date" id="birthday">
+
+	<br/>
+
+	<label for="course">Course: </label>
+	<select aria-label="Zodiac" name="zodiac" id="zodiac" title="Zodiac">
+		<option value="Capricorn">Capricorn</option>
+		<option value="Taurus">Taurus</option>
+		<option value="Virgo">Virgo</option>
+		<option value="Aquarius">Aquarius</option>
+		<option value="Gemini">Gemini</option>
+		<option value="Libra">Libra</option>
+		<option value="Pieces">Pieces</option>
+		<option value="Cancer">Cancer</option>
+		<option value="Scorpio">Scorpio</option>
+		<option value="Aries">Aries</option>
+		<option value="Leo">Leo</option>
+		<option value="Sagittarius">Sagittarius</option>
+	</select>
+
+	<br/>
+
+	<label for="terms">I agree to the terms and conditions</label>
+	<input type="checkbox" id="terms">
+
+	<br/>
+
+	<input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
