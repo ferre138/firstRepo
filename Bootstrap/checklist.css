@@ -1,0 +1,21 @@
+/*remove bullet point from ul > li */
+ul{
+	list-style-type: none;
+}
+
+/*style header*/
+
+/*change header text - font, size, position*/
+
+/*style checkbox - color, size*/
+
+/*style li - font, size, position*/
+
+/*style li > p - dropcase first letter*/
+
+
+/*style strong elements*/ 
+strong{
+	color: #563D7C;
+	font-size: 1.2rem;
+}
