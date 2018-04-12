@@ -1,0 +1,42 @@
+/*font-family*/
+p{
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+}
+/*font-size*/
+body{
+	font-size: 10px;
+}
+h1{
+	font-size: 200px;
+}
+p{
+	font-size: 40px;
+}
+span{
+	font-size: 2.0em; /*em multiplies by parent size*/
+}
+/*font-weight*/
+p{
+	font-weight: bold;
+}
+/*font-height*/
+p{
+	line-height: 2; /*multiplies current line height by number given*/
+}
+/*text-align*/
+h1{
+	text-align: right;
+}
+p{
+	text-align: center;
+}
+/*text-decoration*/
+h1{
+	text-decoration: line-through;
+}
+p{
+	text-decoration: underline;
+}
