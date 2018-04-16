@@ -1,3 +1,8 @@
+/*style body*/
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
 /*remove bullet point from ul > li */
 ul{
 	list-style-type: none;
@@ -13,9 +18,21 @@ ul{
 
 /*style li > p - dropcase first letter*/
 
-
 /*style strong elements*/ 
 strong{
 	color: #563D7C;
-	font-size: 1.2rem;
+	font-size: 1.2em;
+}
+
+/*style anchor elements*/
+a {
+	color: #C12000;
+	text-decoration: none;
+}
+a:hover, #header:hover{
+	color: #AD8DE0;
+}
+
+#header{
+	color:#563D7C;
 }
