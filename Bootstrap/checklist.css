@@ -11,6 +11,10 @@ ul{
 /*style header*/
 
 /*change header text - font, size, position*/
+h2{
+	padding-left: 1%;
+	color: #AD8DE0;
+}
 
 /*style checkbox - color, size*/
 
@@ -35,4 +39,13 @@ a:hover, #header:hover{
 
 #header{
 	color:#563D7C;
+}
+
+/*style hr elements*/ 
+hr{
+	margin: 5% 10% 0;
+}
+
+.code{
+	text-decoration: underline;
 }
