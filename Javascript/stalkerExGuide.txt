@@ -1,0 +1,13 @@
+JS Stalker Exercise
+
+Variables, Strings, Prompt, and Console.log
+
+ADd for the user's first name
+Ask for the user's last name
+Ask for the user's age
+Print out the user's full name in a sentence
+Print out the user's age in a sentence
+
+OUTPUT:
+Your full name is Rusty Steele
+You are 3 years old
