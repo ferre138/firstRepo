@@ -39,3 +39,28 @@ var friendGroups = [
 	["Mooney", "Wormtail", "Prongs"]
 ];
 console.log(friendGroups[2][0]);
+
+//ITERATION
+//for loop
+var colors = ["red", "orange", "yellow"];
+for (var i=0; i<colors.length; i++){
+	console.log(colors[i]);
+}
+//forEach arr.forEach(someFunction);
+colors.forEach(function(color){
+	console.log(color);
+});
+//work the same way as below
+function printColor(color){
+	console.log(color);
+}
+colors.forEach(printColor);
+
+//EVALUATE
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+var colors = ["red", "orange", "yellow", "green"];
+numbers.forEach(function(color){
+	if (color%3 === 0) {
+		console.log(color);
+	}
+});
