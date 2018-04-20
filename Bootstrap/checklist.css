@@ -9,13 +9,28 @@ ul.checklist{
 }
 
 /*style header*/
-
+.header{
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+	max-height: 200px;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
 /*change header text - font, size, position*/
+.inner-wrap{
+	padding-top: 0.5%;
+}
+h1{
+	font-size: 2.0em;
+}
 h2{
 	padding-left: 1%;
 	color: #AD8DE0;
 }
 
+.content{
+	margin: 0 40px;
+}
 /*style checkbox - color, size*/
 
 /*style li - font, size, position*/
@@ -37,7 +52,7 @@ a:hover, #header:hover{
 	color: #AD8DE0;
 }
 
-#header{
+#header-purple{
 	color:#563D7C;
 }
 
