@@ -7,7 +7,6 @@ body{
 
 /*change header text - font, size, position*/
 h2{
-	padding-left: 1%;
 	color: #AD8DE0;
 }
 
@@ -18,7 +17,7 @@ h2{
 /*style li > p - dropcase first letter*/
 
 /*style strong elements*/ 
-.notelist > ul , strong{
+.notelist > li, strong{
 	color: #563D7C;
 	font-size: 1.2em;
 }
