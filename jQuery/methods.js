@@ -1,0 +1,15 @@
+$("h1").text();
+$("h1").text("New Text for h1");
+$("ul").html();
+$("ul").html("<li>new ul!</li><li>not here</li>");
+$("h1").attr("href", "http://www.bing.com");
+$("input").attr("type", "checkbox");
+$("input").attr("type", "text");
+$("input").val("Jayme Cunha");
+$("select").val();
+$("h1").addClass("correct");
+$("li").addClass("wrong");
+$("li").toggleClass("correct");
+$("li:last-child").removeClass("wrong");
+$("li").toggleClass("done");
+$("li").last().toggleClass("done");
