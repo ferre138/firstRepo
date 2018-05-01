@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patatap</title>
+	<script type="text/javascript" src="paper-full.js"></script>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+	<script type="text/paperscript" canvas="myCanvas">
+		var width = screen.width;
+		var height = screen.height;
+
+		function onKeyDown(event) {
+			var point = new Point(width,height) * Point.random();
+			var circle = new Path.Circle(point, 10);
+			circle.fillColor = randomColor();
+			
+		}
+
+		function randomColor(){
+			//pick a red from 0 - 255
+			var r = Math.floor(Math.random() * 256);
+			//pick a green from 0 - 255
+			var g = Math.floor(Math.random() * 256);
+			//pick a blue from 0 - 255
+			var b = Math.floor(Math.random() * 256);
+			return "rgb(" + r + ", " + g + ", " + b + ")";
+		}
+		
+	</script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+</body>
+</html>
