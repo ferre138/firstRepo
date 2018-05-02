@@ -7,12 +7,26 @@
 	<script type="text/paperscript" canvas="myCanvas">
 		var width = screen.width;
 		var height = screen.height;
+		var point;
+		var circle;
+		var keyPressed = false;
 
 		function onKeyDown(event) {
-			var point = new Point(width,height) * Point.random();
-			var circle = new Path.Circle(point, 10);
+			if (keyPressed){
+				circle.fillColor = "black";
+			}
+			keyPressed = true;
+			point = new Point(width,height) * Point.random();
+			circle = new Path.Circle(point, 300);
 			circle.fillColor = randomColor();
-			
+			var audio = new Audio('/sounds/bubbles.mp3');
+			audio.play();
+		}
+
+		function onFrame(){
+			if (keyPressed ){
+				circle.scale(0.9);
+			}
 		}
 
 		function randomColor(){
@@ -20,7 +34,7 @@
 			var r = Math.floor(Math.random() * 256);
 			//pick a green from 0 - 255
 			var g = Math.floor(Math.random() * 256);
-			//pick a blue from 0 - 255
+ 			//pick a blue from 0 - 255
 			var b = Math.floor(Math.random() * 256);
 			return "rgb(" + r + ", " + g + ", " + b + ")";
 		}
