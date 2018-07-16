@@ -6,7 +6,7 @@ document.body;
 
 //MAIN METHODS
 document.getElementById();
-document.getElementByClasName();
+document.getElementByClassName();
 document.getElementsByTagName();
 document.querySelector();
 document.querySelectorAll();
